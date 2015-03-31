@@ -14,3 +14,6 @@ print 'media =' , media
     
 
         
+
+# Nota: 0.9
+# Comentario: O que acontece se um aluno tirar zero?
