@@ -5,7 +5,11 @@ def distancia(P1x,P1y,P2x,P2y):
     d = math.sqrt(math.pow((P2x-P1x),2)+math.pow((P2y-P1y),2))
     print 'd = ',d
     return d
-    
+
+
+# Nota: 1.0
+# Comentario: Por favor inclua um exemplo de uso da funcao
+
 ##--------Exercicio 2----------##
 
 def M_dist():
@@ -30,6 +34,10 @@ def M_dist():
                     b=d
     return b
 
+# Nota: 1.0
+# Comentario: 0
+
+
 ##--------Exercicio 3----------##
 
 def Polar(P1x,P1y,P2x,P2y):
@@ -39,6 +47,9 @@ def Polar(P1x,P1y,P2x,P2y):
     a2 = math.degrees(math.atan2(float(P2y), float(P2x)))
     print 'Ponto 1: (',d1,',',a1,')' 
     print 'Ponto 2: (',d2,',',a2,')'
+
+# Nota: 0.0
+# Comentario: Exercicio nao faz o proposto
 
 ##--------Exercicio 4----------##
 
@@ -75,6 +86,12 @@ def GPS():
     print 'Latitude: ',rb,' graus'
     print 'Longitude: ',ra,' graus'
     print 'Altitude: ',1000*h,'m'
+
+
+GPS()
+
+# Nota: 1.0
+# Comentario: *
 
 
 
