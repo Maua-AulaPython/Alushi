@@ -22,4 +22,7 @@ if len(notas):
     print 'Maior Nota = ', max(notas)
 
 
+#Nota: 0.9
+#Comentario: A meida eh um numero real e nao inteiro
+
         
